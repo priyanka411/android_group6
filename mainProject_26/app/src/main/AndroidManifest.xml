@@ -15,10 +15,10 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".Activity_3_1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +26,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+=======
+        <activity android:name=".Activity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity2register"
+            android:label="@string/app_name">
+        </activity>
+>>>>>>> 4f3b72e5cdcfecc8e0ab459474b7c69d13c46a49
     </application>
 
 </manifest>
